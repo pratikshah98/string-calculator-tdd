@@ -1,6 +1,6 @@
 const { add } = require('./stringCalculator');
 
-test('returns the number for a single input', () => {
-    expect(add("1")).toBe(1);
+test('returns the sum of two numbers', () => {
+    expect(add("1,5")).toBe(6);
   });
   
